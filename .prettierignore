@@ -1,0 +1,6 @@
+**/*.d.ts
+test/**/*.ts*
+docker/*
+node_modules
+public
+/build

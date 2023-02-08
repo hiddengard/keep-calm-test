@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  font-weight: 500;
+  font-family: Manrope, sans-serif;
+  margin: 0;
+  background: var(--body-bg);
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (max-width: 900px) {
+    font-size: 1.4rem;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 13.5vw;
+  margin: 0 auto;
+
+  @media (max-width: 1500px) {
+    padding: 0 5.5vw;
+  }
+}
+
+.containerWide {
+    padding-left: 0;
+
+  @media (max-width: 900px) {
+    padding: 0;
+  }
+}

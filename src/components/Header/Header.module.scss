@@ -1,0 +1,44 @@
+.header {
+  flex: 0 0 auto;
+  background: linear-gradient(0deg, #464341 0%, #010101 100%);
+  padding: 3.5rem 0 3rem;
+
+  @media screen and (max-width: 900px) {
+    padding: 2rem 0;
+
+    &Logo {
+      height: 2rem;
+    }
+  }
+
+  &Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &Phone {
+    font-size: 2.4rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all .1s;
+
+    &Img {
+      display: none;
+    }
+
+    @media screen and (max-width: 900px) {
+      &Img {
+        display: block;
+      }
+
+      &Number {
+        display: none;
+      }
+    }
+
+    &:hover {
+      color: #8b00ff;
+    }
+  }
+}
