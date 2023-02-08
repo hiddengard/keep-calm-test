@@ -24,6 +24,7 @@
 
   &Wide {
     flex-direction: row;
+    padding-left: 0;
 
     @media screen and (max-width: 900px) {
       flex-direction: column;
